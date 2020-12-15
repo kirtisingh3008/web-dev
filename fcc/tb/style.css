@@ -1,0 +1,61 @@
+.head-style{
+    text-align: center;
+    font-size: large;
+    color: black;
+    font-style: italic;
+    font-family:cursive;
+    
+}
+.head-style:hover{
+    color: yellow;
+}
+.body-style{
+    text-align: center;
+    text-emphasis-color: grey;
+    background-color: black;
+    color: grey;
+}
+h2 ,h3{
+    color: blueviolet;
+    text-align: center;
+    align-content: center;
+}
+p1{
+    text-align: center;
+    font-size: 1rem;
+}
+p2{
+    text-align: center;
+    font-size: 1rem;
+}
+.img{
+    image-rendering: auto;
+}
+body{
+    background-image: url('bg4.jpg');
+    background-repeat: repeat;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.4s;
+    text-align: center;
+    background-color: black;
+    color: chocolate;
+    width:50%;
+    height: 50%;
+    border: 10px solid rgba(0, 0, 0, .4); 
+    
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    
+    
+}
+.container{
+    padding: 2px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
